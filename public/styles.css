@@ -45,7 +45,7 @@ body {
   width: 100%;
   min-height: 100vh;
   background: radial-gradient(#111, #071a1a);
-  color: var(--pure-white);
+  color: var(--white);
   overflow-x: hidden;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 .section {
-  background: var(--taupe);
+  background: var(--grey);
   position: relative;
   padding: 80px 0;
 }
@@ -160,8 +160,9 @@ body {
 }
 
 .logo img {
-  width: 55px;
+  width: 100px;
   height: auto;
+  object-fit: cover;
 }
 
 .nav {
@@ -194,7 +195,7 @@ body {
 /* Buttons */
 .btn {
   padding: 10px 28px;
-  background: var(--dark-teal);
+  background: var(--clr-primary);
   border-radius: 40px;
   font-size: 20px;
   font-weight: 400;
@@ -242,7 +243,7 @@ body {
 }
 
 .header h1 span {
-  color: var(--dark-teal);
+  color: var(--clr-primary);
 
 }
 
@@ -263,7 +264,7 @@ body {
   border-bottom-right-radius: 80px;
   border-bottom-left-radius: 20px;
   margin-bottom: 10px;
-  outline: 2px solid var(--pure-white, #fff);
+  outline: 2px solid #fff;
   padding: 14px;
   width: 170px;
 }
@@ -321,7 +322,7 @@ body {
 /* Footer */
 .footer {
   padding: 30px 0;
-  border-top: 1px solid var(--pure-white, #fff);
+  border-top: 1px solid #fff;
   text-align: center;
 }
 
