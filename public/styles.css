@@ -1,7 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* Base */
+
 :root {
+  /* Colours */
   --clr-primary: #0c8379;
+  --white: #fdfdfd;
+  --gold: #f6a23b;
+  --black: #000000;
+  --grey: #adaa9b;
+  --black2: #14110f;
+  --nude: #a26b43;
+
+  /* Fonts */
+  --font-family1: "Nunito Sans", "Roboto", sans-serif;
+  --font-family2: "Helvetica Neue", Helvetica, sans-serif;
+  --font-family3: "Figtree", sans-serif;
+  --font-family4: "Roboto", "Figtree", sans-serif;
+  --font-family5: "Montserrat", "Figtree", "Nunito Sans", "Roboto", sans-serif;
+  --font-family6: "Lato", "Figtree", "Montserrat", "Nunito Sans", "Roboto", sans-serif;
+  --font-family7: "Raleway", "Figtree", "Lato", "Montserrat", "Nunito Sans", "Roboto", sans-serif;
 }
 
 *,
@@ -10,7 +34,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--font-family1);
 }
 
 html {
@@ -42,7 +66,7 @@ body {
   padding: 40px 0;
   overflow: hidden;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1010%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(28%2c 38%2c 41%2c 1)'%3e%3c/rect%3e%3cpath d='M0 0L764.54 0L0 638.45z' filter='url(%23SvgjsFilter1011)' fill='rgba(42%2c 42%2c 45%2c 1)'%3e%3c/path%3e%3cpath d='M0 560L764.54 560L0 -78.45000000000005z' filter='url(%23SvgjsFilter1011)' fill='rgba(42%2c 42%2c 45%2c 1)'%3e%3c/path%3e%3cpath d='M1440 560L675.46 560L1440 -78.45000000000005z' filter='url(%23SvgjsFilter1011)' fill='rgba(42%2c 42%2c 45%2c 1)'%3e%3c/path%3e%3cpath d='M1440 0L675.46 0L1440 638.45z' filter='url(%23SvgjsFilter1011)' fill='rgba(42%2c 42%2c 45%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1010'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cfilter height='130%25' id='SvgjsFilter1011'%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='-5' in='TopLeftG' result='TopLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopLeftO' result='TopLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='-5' in='TopRightG' result='TopRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopRightO' result='TopRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='5' in='BottomLeftG' result='BottomLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomLeftO' result='BottomLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='5' in='BottomRightG' result='BottomRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomRightO' result='BottomRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeMerge%3e%3cfeMergeNode in='TopLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='TopRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='SourceGraphic'%3e%3c/feMergeNode%3e%3c/feMerge%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e");
-  
+
 }
 
 .header::after,
@@ -113,6 +137,7 @@ body {
 .tertiary {
   font-size: 15px;
 }
+
 /* End Base */
 
 /* Menu */
@@ -163,6 +188,7 @@ body {
 .nav-item:last-of-type {
   margin-right: 0;
 }
+
 /* End Menu */
 
 /* Buttons */
@@ -217,8 +243,9 @@ body {
 
 .header h1 span {
   color: var(--clr-primary);
-  
+
 }
+
 /* End Header */
 
 .section:nth-child(even) .visual {
@@ -244,6 +271,7 @@ body {
 .trainer .mb {
   margin-bottom: 10px;
 }
+
 /* End Trainer */
 
 /* Testimonial */
@@ -263,8 +291,9 @@ body {
   position: relative;
   margin-top: 20px;
 }
-.client:hover{
-    background-color: #1d8585a1;
+
+.client:hover {
+  background-color: #1d8585a1;
 }
 
 .client img {
@@ -279,12 +308,14 @@ body {
 .client h2 {
   margin: 20px 0 10px 0;
 }
+
 /* End Testimonial */
 
 /* Discount */
 #discount {
   padding: 40px 0;
 }
+
 /* End  Discount */
 
 /* Footer */
@@ -293,6 +324,7 @@ body {
   border-top: 1px solid #fff;
   text-align: center;
 }
+
 /* End Footer */
 
 /* Responsive */
@@ -370,6 +402,7 @@ body {
 }
 
 @media (max-width: 530px) {
+
   .header::after,
   .header::before,
   .section::after,
